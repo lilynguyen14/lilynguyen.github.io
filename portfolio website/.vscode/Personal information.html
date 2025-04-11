@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow p-6 sticky top-0 z-10">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">My Portfolio</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#design" class="hover:text-blue-600">Design</a>
+        <a href="#analysis" class="hover:text-blue-600">Analysis</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Me -->
+  <section id="about" class="py-12 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+      <p class="text-gray-600 text-lg">
+        Hi, I’m Lily, a second-year Business Analytics student at Macquarie University. This portfolio showcases my academic projects that earned high distinctions, as well as personal design work driven by my passion for creativity and visual storytelling.
+
+      </p>
+    </div>
+  </section>
+
+    <!-- Analysis Projects -->
+    <section id="analysis" class="py-12 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+          <h2 class="text-3xl font-semibold text-center mb-10">📊 Analysis Projects</h2>
+          <div class="grid md:grid-cols-3 gap-6">
+            <!-- Project 1 -->
+            <div class="bg-gray-50 rounded-xl shadow-sm transition-all duration-300 p-4 project-card">
+              <h3 class="text-xl font-semibold mb-2">Business Report (BUSA1000)</h3>
+              <p class="text-sm text-gray-600">Used Tableau to analyze the sales performance of a transportation company, identifying key trends and strategic insights to support data-driven decision making.</p>
+              <!-- PDF Report Link -->
+                <a href="Duong Hoang Linh Nguyen - 48067407.pdf" target="_blank" class="text-blue-600 underline mb-4 inline-block">
+                    📄 View Full Report (PDF)
+                <a href="Duong Hoang Linh Nguyen - 48067407.twbx" target="_blank" class="text-blue-600 underline mb-4 inline-block">
+                    📄 View Full Tableau 
+                </a>
+               
+            </div>
+            <!-- Project 2 -->
+            <div class="bg-gray-50 rounded-xl shadow-sm transition-all duration-300 p-4 project-card">
+              <h3 class="text-xl font-semibold mb-2">Database Design Project</h3>
+              <p class="text-sm text-gray-600">Developed an ER diagram and converted it into a relational schema to support the data structure of an event-based application.</p>
+              <a href="database design project.pdf" target="_blank" class="text-blue-600 underline mb-4 inline-block">
+                📄 View Full Report (PDF)
+            </a>
+        </div>
+      </section>    
+
+  <!-- Design Projects -->
+  <section id="design" class="py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-semibold text-center mb-10">🎨 Design Projects</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Project 1 -->
+        <div class="bg-white rounded-xl overflow-hidden shadow-sm transition-all duration-300 p-4 project-card">
+          <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+          <p class="text-sm text-gray-600">This is a personal design project where I created a series of Instagram posts just for fun and to explore my creativity.</p>
+          <a href="post1.html"_blank" class="text-blue-600 underline mb-4 inline-block">
+            📄 View Full 
+        </a>
+        </div>
+         <!-- Project 1 -->
+         <div class="bg-white rounded-xl overflow-hidden shadow-sm transition-all duration-300 p-4 project-card">
+          <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+          <p class="text-sm text-gray-600">I focused on building a clean and consistent look across all the visuals, experimenting with colors, layout, and style.</p>
+          <a href="post2.html"_blank" class="text-blue-600 underline mb-4 inline-block">
+            📄 View Full 
+        </a>
+        </div>
+         <!-- Project 1 -->
+         <div class="bg-white rounded-xl overflow-hidden shadow-sm transition-all duration-300 p-4 project-card">
+          <h3 class="text-xl font-semibold mb-2">Project 3</h3>
+          <p class="text-sm text-gray-600">It was a great way for me to practice design skills and express my own aesthetic</p>
+          <a href="post3.html"_blank" class="text-blue-600 underline mb-4 inline-block">
+            📄 View Full 
+        </a>
+        </div>
+       
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 mt-10">
+    <div class="flex flex-col md:flex-row items-center justify-around text-center gap-4">
+      <div>
+        <p>Duong Hoang Linh (Lily) Nguyen</p>
+      </div>
+      <div>
+        <p>0426709170</p>
+      </div>
+      <div>
+        <p>lilynguyenn14@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
